@@ -1,0 +1,22 @@
+html{font-size:100px}
+/* header */
+header{width:100%;height:1.12rem;background:#2a2a2a;overflow: hidden;}
+.logo{float:left;width:2.1rem;height:.64rem;margin:.23rem 0 0 .16rem;}
+.logo a{display: block;width:100%;height:100%;background:url(../img/Layer\ 15.png) no-repeat;background-size: 100%}
+.menu{float:right;margin:.4rem .23rem 0 0}
+.menu .icon-menu{display:block;width:.36rem;height:.32rem;background:url(../img/菜单\ \(1\).png) no-repeat;background-size: 100%}
+/* swiper */
+.swiper-slide img{width:100%;display: block}
+/* main */
+main{padding:0 .2rem}
+.item{width:100%;box-shadow:0 .05rem .06rem rgba(178,178,178,0.75);border-radius: .05rem;margin-top: .36rem}
+section img{width:100%;border-radius: .05rem .05rem 0 0;display: block}
+.item .txt{padding:.3rem;text-align: center;font-size:.28rem;font-weight:400;line-height:.24rem;}
+.item .txt h2{color:#777777;}
+.item .txt p{color:#ed3a3a;margin-top: .24rem}
+/* 底部 */
+.end{width:100%;height:1.07rem;margin-top: .76rem;}
+.end>span{width:33.33%;height:100%;text-align: center;float:left}
+.end span a i{background:url(../img/首页图标.png) no-repeat;width:.46rem;height:.32rem;display:block;background-size: cover;margin:0 0 .14rem .82rem}
+.end span:hover i{background:url(../img/首页图标滑过.png) no-repeat;background-size: cover}
+.end span:hover span{color:#188ae4}

@@ -1,0 +1,153 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <meta http-equiv="X-UA-Compatible" content="ie=edge">
+    <link rel="stylesheet" href="css/reset.min.css">
+    <link rel="stylesheet" href="css/swiper.min.css">
+    <link rel="stylesheet" href="css/index.css">
+    <title>珠峰手机端首战</title>
+</head>
+
+<body>
+    <!-- header begin -->
+    <header>
+        <h1 class="logo">
+            <a href=""></a>
+        </h1>
+
+        <div class="menu">
+            <span class="icon-menu"></span>
+        </div>
+    </header>
+    <!-- header end -->
+
+    <!-- swiper begin -->
+    <div class="swiper-container">
+        <div class="swiper-wrapper">
+            <div class="swiper-slide"><a href="#"><img src="img/banner图2.png" alt=""></a></div>
+            <div class="swiper-slide"><a href="#"><img src="img/banner图2.png" alt=""></a></div>
+            <div class="swiper-slide"><a href="#"><img src="img/banner图2.png" alt=""></a></div>
+            <div class="swiper-slide"><a href="#"><img src="img/banner图2.png" alt=""></a></div>
+        </div>
+        <!-- 如果需要分页器 -->
+        <div class="swiper-pagination"></div>
+    </div>
+    <!-- swiper end -->
+    <!-- main begin -->
+    <main>
+        <section class="item"><!-- 同div -->
+            <a href="#">
+                <div clas="pic">
+                    <img src="img/banner1.jpg" alt="">
+                </div>
+                <div class="txt">
+                    <h2>Vue.js从理论精讲到项目实战课程</h2>
+                    <p>￥599.00元</p>
+                </div>
+            </a>
+        </section>
+        <section class="item"><!-- 同div -->
+            <a href="#">
+                <div clas="pic">
+                    <img src="img/banner1.jpg" alt="">
+                </div>
+                <div class="txt">
+                    <h2>Vue.js从理论精讲到项目实战课程</h2>
+                    <p>￥599.00元</p>
+                </div>
+            </a>
+        </section>
+        <section class="item"><!-- 同div -->
+            <a href="#">
+                <div clas="pic">
+                    <img src="img/banner1.jpg" alt="">
+                </div>
+                <div class="txt">
+                    <h2>Vue.js从理论精讲到项目实战课程</h2>
+                    <p>￥599.00元</p>
+                </div>
+            </a>
+        </section>
+        <section class="item"><!-- 同div -->
+            <a href="#">
+                <div clas="pic">
+                    <img src="img/banner1.jpg" alt="">
+                </div>
+                <div class="txt">
+                    <h2>Vue.js从理论精讲到项目实战课程</h2>
+                    <p>￥599.00元</p>
+                </div>
+            </a>
+        </section>
+        <section class="item"><!-- 同div -->
+            <a href="#">
+                <div clas="pic">
+                    <img src="img/banner1.jpg" alt="">
+                </div>
+                <div class="txt">
+                    <h2>Vue.js从理论精讲到项目实战课程</h2>
+                    <p>￥599.00元</p>
+                </div>
+            </a>
+        </section>
+        <section class="item"><!-- 同div -->
+            <a href="#">
+                <div clas="pic">
+                    <img src="img/banner1.jpg" alt="">
+                </div>
+                <div class="txt">
+                    <h2>Vue.js从理论精讲到项目实战课程</h2>
+                    <p>￥599.00元</p>
+                </div>
+            </a>
+        </section>
+    </main>
+    <!-- main end -->
+    <!-- 底部 begin -->
+    <div class="end">
+        <span class="footer1"><a href=""><i></i><span>首页</span></a></span>
+        <span class="footer2"><a href=""><i></i><span>首页</span></a></span>
+        <span class="footer3"><a href=""><i></i><span>首页</span></a></span>
+    </div>
+    <!-- 底部 end -->
+
+
+
+
+    
+
+    <script src="js/swiper.min.js"></script>
+    <script type="text/javascript">
+        //动态判断rem
+        function refreshRem() {
+            var desW = 640,
+                winW = document.documentElement.clientWidth,
+                ratio = winW / desW;
+            document.documentElement.style.fontSize = ratio * 100 + 'px';
+        }
+        refreshRem();
+        window.addEventListener('resize', refreshRem);
+
+
+        var mySwiper = new Swiper('.swiper-container', {
+            loop: true, // 循环模式选项
+
+            // 如果需要分页器
+            pagination: {
+                el: '.swiper-pagination',
+            },
+
+            //自动轮播
+            autoplay: {
+                delay: 3000,
+                disableOnInteraction: false,
+                //用户操作之后开启自动轮播
+            },
+        })
+    </script>
+</body>
+
+</html>
